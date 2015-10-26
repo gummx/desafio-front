@@ -1,0 +1,98 @@
+/* My Styles */
+@import url(../css/bootstrap.min.css);
+
+  .navbar{
+    background-color: #222;
+  }
+.navbar.hero {
+    margin: 0px;
+    border: 0px;
+    z-index: 999;
+    -webkit-font-smoothing: antialiased;
+}
+
+#home-slide{
+  overflow: hidden;
+  background: #000;
+  background-size: cover;
+  background-image: url("../images/mx_bg.jpg");
+  background-position: center 0%;
+  height: 580px;
+  position: relative;;
+  top: -60px;
+  padding-top: 130px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4); 
+  color: #FFF;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); 
+  text-align: center 
+}
+
+#hours-slide{
+  overflow: hidden;
+  background: #000;
+  background-size: cover;
+  background-image: url("../images/mx_bg.jpg");
+  background-position: center 30%;
+  height: 350px;
+  position: relative;;
+  top: -60px;
+  padding-top: 130px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4); 
+  color: #FFF;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); 
+  text-align: center 
+} 
+#home-slide h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: .3px;
+    color: #FFF;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    -webkit-animation-duration: 1s;
+}
+#hours-slide h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: .3px;
+    color: #FFF;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    -webkit-animation-duration: 1s;
+}
+#home-slide .sub-text {
+    -webkit-font-smoothing: antialiased;
+    margin-top: 25px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    -webkit-animation-duration: 1s;
+}
+#main-weather ul li{
+    float:left;
+    display: inline;
+    margin: 2% 0 0;
+    width: 24%;
+    font-size: 18px
+}
+#weather{
+    text-transform: uppercase;
+    display: inline;
+    font-size: 30px
+}
+.big{
+    margin-right: 10px;
+    font-size: 30px
+}
+footer p{
+    text-align: center
+}
+
+/* Media queries*/
+@media (min-width: 768px){
+  .navbar{
+    background-color: transparent;
+  }
+}

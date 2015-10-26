@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Desafío Front-End</title>
+  <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../css/owfont-regular.css">  
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <header class="navbar navbar-inverse hero" role="banner">
+
+      <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a href="../index.html" class="navbar-brand">CD-MX</a>
+        </div>
+        <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <a href="../views/hours.html"><span class="glyphicon glyphicon-time"></span>&nbsp;La hora en el mundo</a>
+              </li>           
+              <li>
+                <a href="../views/api2.html"><span class="glyphicon glyphicon-send"></span>&nbsp;API 2</a>
+              </li>
+
+
+            </ul>
+        </nav>
+      </div>
+  </header>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div id="home-slide" class="jumbotron">
+      <div class="container">
+        <h1>Bienvenido a la ciudad de México</h1>
+        <p class="sub-text">Conoce el estado del tiempo.</p>
+        <p></p>
+        <div id="main-weather">
+          <span class="glyphicon glyphicon-cloud big"></span>
+          <p id="weather"></p>
+
+          <ul>
+            <li><span class="glyphicon glyphicon-chevron-right"></span>Temperatura:<span id="temp"></span> </li>
+            <li><span class="glyphicon glyphicon-arrow-down med"></span>Presión <span id="pressure"></span></li>
+            <li><span class="glyphicon glyphicon-tint med"></span>Humedad: <span id="humed"></span></li>
+            <li><span class="owf owf-905 med"></span>Velocidad del viento:<span id="wind"></span></li>                    
+          </ul>
+        </div>        
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2 id="time0"></h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+        </div>
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+       </div>
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+        </div>
+      </div>
+
+      <hr>
+
+      <footer>
+        <p>&copy; 2015 - gummx</p>
+      </footer>
+    </div> <!-- /container -->
+    <script src="../js/jquery-2.1.4.js" type="text/javascript"></script> 
+    <script src="../js/bootstrap.min.js" type="text/javascript" ></script>
+    <script src="../js/script.js" type="text/javascript"></script>
+</body>
+</html>
